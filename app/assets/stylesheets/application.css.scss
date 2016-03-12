@@ -5812,6 +5812,7 @@ button.close {
   background-color: rgba(12,120,120,0.5);
   height: 300em;
   margin: 10px;
+
 }
 
 .usercolumn {
@@ -5862,11 +5863,12 @@ button.close {
 /* matchpage */
 
 .match {
-  position: absolute;
+  position: fixed;
   background-color: rgba(12,120,120,0.5);
-  // padding-left: 18em;
+  left: auto;
+  padding-left: 18em;
   padding-top: 5em;
-  // padding-right: 18em;
+  padding-right: 18em;
   padding-bottom: 5em;
   border-style: dashed;
   border-color: black;
@@ -5881,12 +5883,13 @@ button.close {
 
 }
 
-#user-image {
+/*Profile page */
+
+
+#profileAvatar {
   float: left;
-  left: 2em;
+  top: 2em;
 }
-
-
 
 /* copied css for alert message */
 .alerts {
