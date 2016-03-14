@@ -8,17 +8,13 @@
 //   -moz-appearance:none;
 //   appearance:none;
 // }
-#good:hover{
+#good:hover,
+#bad:hover {
         -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
         transform-fill-mode: forwards;
-}
-
-#bad:hover{
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
+        cursor: pointer;
 }
 
 #ratings{

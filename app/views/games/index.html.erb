@@ -7,28 +7,24 @@
 ​
 ​
   <div class="recentgames">
-
-
     <div class="column-container">
       <div class="usercolumn col-lg-6 animated slideInLeft" style=" float:left; width:45%; height: auto;">
         <div class="row usercontent" style="padding-bottom: 10px">
-
-        <h1 id="welcome-user">&nbsp;&nbsp;&nbsp;Welcome <%= current_user.nickname %>
+            <h1 id="welcome-user">&nbsp;&nbsp;&nbsp;Welcome <%= current_user.nickname %></h1>
+            <div class="user-image">
+                <span><%= image_tag session[:current_user]["image"] %></span>
             </div>
-        </h1>
+        </div>
 
 
         <!-- <div class="col-lg-3" style="text-align:center; top: 25px;">
             <span><%= image_tag session[:current_user]["image"] %></span>
         </div> -->
-        <div class="col-lg-12" style="">
+        <div class="col-lg-12">
           <hr>
-            <div class="user-image" style="text-align:center; top: 25px;">
-                <span><%= image_tag session[:current_user]["image"] %></span>
-            </div>
             <!-- <br><p>Your current nickname is </p> -->
             <!-- <h2 style="text-align:center"><%= current_user.nickname %></h2> -->
-            <div class="button-wrapper" style="">
+            <div class="button-wrapper">
               <%= link_to "Your Profile", session[:current_user]["profileurl"], class: "ghost-button" %>
             </div>
 ​
@@ -51,9 +47,7 @@
 
 
         <div class="gamescolumn col-lg-6 animated slideInRight" style="float: right; width: 45%; height: auto;">
-          <h1 style="text-align: center; margin-bottom: 0">
-            Select a Game
-          </h1>
+          <h1 id="selectGame"> Select a Game</h1>
           <!-- <div class="row"> -->
 ​
 ​
