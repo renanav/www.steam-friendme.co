@@ -9,7 +9,7 @@ class RatingsController < ApplicationController
 
     respond_to do |format|
       if @rating.save
-        format.html { redirect_to games_path, notice: 'Thanks for the rating!' }
+        format.html { redirect_to games_path, notice: 'Thanks for rating!' }
         format.json { render :show, status: :created, location: @rating }
       else
         format.html { render :new }

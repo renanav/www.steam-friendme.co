@@ -5877,12 +5877,12 @@ body {
   height: 43em;
   width: 40em;
   left: 3em;
-
+  border: 0.0625em solid black;
 }
 
 .usercontent {
     padding: 0 5%;
-    border: 0.0625em solid black;
+
 }
 
 .gamescolumn {
@@ -5909,7 +5909,9 @@ body {
   padding-left: 12em;
 }
 
-
+#welcome-user {
+  text-align: center;
+}
 
 
 /* matchpage */
