@@ -5925,6 +5925,7 @@ body {
 
 .matchPageBody {
   background: url(http://3.bp.blogspot.com/-kDf5IC0kNqY/UVxfmlrqf3I/AAAAAAAAABI/PD8Lzz5uxCI/s1600/Intel.png) no-repeat center center fixed;
+}
 
 .match {
   position: fixed;
@@ -6022,24 +6023,30 @@ body {
   margin-top: 10px;
   text-align: center;
 }
+
 .no-margin-bottom{
   margin-bottom: 0;
 }
 .no-margin-top{
   margin-top: 0;
 }
+
 .content-wrapper{
   margin-bottom: 100px;
 }
+
 .game-header{
   color:white;
 }
-h1{
+
+h1 {
   color:white;
 }
-.match-profile-button{
+
+.match-profile-button {
   margin: 5px;
 }
-.playtime{
+
+.playtime {
   font-weight:700;
 }
