@@ -54,7 +54,7 @@ gem 'google-webfonts-rails'
 
 #gem for icons
 gem 'bootstrap-glyphicons'
-# To enable a friendlier display of errors when pushing to keroku
+# To enable a friendlier display of errors when pushing to keroku. always add this gem when pushing to heroku
 gem 'rails_12factor'
 
 group :development, :test do
