@@ -5874,6 +5874,11 @@ body {
 
   height: auto;
   padding-top: 0;
+=======
+  background-color: rgba(12,120,120,0.5);
+  height: 300em;
+  margin: 10px;
+
 }
 
 .usercolumn {
@@ -5923,7 +5928,24 @@ body {
 
 .matchPageBody {
   background: url(http://3.bp.blogspot.com/-kDf5IC0kNqY/UVxfmlrqf3I/AAAAAAAAABI/PD8Lzz5uxCI/s1600/Intel.png) no-repeat center center fixed;
+
+.match {
+  position: fixed;
+  background-color: rgba(12,120,120,0.5);
+  left: auto;
+  padding-left: 18em;
+  padding-top: 5em;
+  padding-right: 18em;
+  padding-bottom: 5em;
+  border-style: dashed;
+  border-color: black;
+  width: 29em;
+  height: 40em;
+  margin-left: 32em;
+  margin-right: 25em;
+  text-align: center;
 }
+
 .match-new{
   color:white; margin: 0 auto; border: 2px black solid; width: 50%; margin-top: 100px; text-align:center; padding: 0 50px;
 }
@@ -5934,12 +5956,17 @@ body {
   font-size: 3.2em;
 }
 
+/*Profile page */
+
 .glyphicon-unclick{
   color: #fff;
 }
 
 .glyphicon-thumbs-down:hover {
   color: red;
+#profileAvatar {
+  float: left;
+  top: 2em;
 }
 
 .glyphicon-thumbs-up:hover{
