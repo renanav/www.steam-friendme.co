@@ -54,6 +54,8 @@ gem 'google-webfonts-rails'
 
 #gem for icons
 gem 'bootstrap-glyphicons'
+# To enable a friendlier display of errors when pushing to keroku
+gem 'rails_12factor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
