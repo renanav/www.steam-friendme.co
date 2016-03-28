@@ -1,7 +1,0 @@
-Welcome to [SteamFriend.Me](steam-friend-me.herokuapp.com)!
-===================
-
-SteamFriend.Me. is a social networking service for gamers off the Steam digital distribution platform. The app matches users as potential friends with other users that play similar games using user data drawn from the robust SteamAPI.
-The signing in proccess starts with the user being directed to the official Steam website.  Authentication using Omniauth requires minimal user input. Once logged in, all of his public information (name, nickname, played games, etc.) is being fetched in a form of a hash and a `user_id` is generated for that specific user.
-Post signingin to the Steam webside the user is being redirected to the SteamFriend.Me app where he then can choose, out of receltly played games list, the game that he would to play with his match, The app then randomly chooses another user from the database that also played that specific game and matches them.  If the match isn't satisfactory, additional matches can be done, After the game is over, users can rate their matches to improve future matches with other players.
-The only information that is saved in the database is the users public information and his rating in the `user_ratings` table.
