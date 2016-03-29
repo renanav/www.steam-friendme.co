@@ -1,4 +1,4 @@
-**Welcome to [SteamFriend.Me](steam-friend-me.herokuapp.com)!**
+**Welcome to SteamFriend.Me!**
 ===================
 
 SteamFriend.Me. is a social networking service for gamers off the Steam digital distribution platform. The app matches users to potential friends who play similar games using their data drawn from the robust SteamAPI.
