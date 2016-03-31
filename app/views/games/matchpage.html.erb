@@ -47,7 +47,7 @@
           </div>
 
         <div class="gameList">
-​          <h4 class="no-margin-top" style="text-align:center"><strong>They've also recently played </strong></h4>
+​          <h4 class="no-margin-top" style="text-align:center"><strong><%= @chosen_match[:user][:nickname] %> also recently played </strong></h4>
           <% @DisplayMatchedUserGames.games.map do |n| %>
 ​
           <a href="http://store.steampowered.com/app/<%= n.appid %>"><img src="http://media.steampowered.com/steamcommunity/public/images/apps/<%= n.appid %>/<%= n.img_icon_url %>.jpg ")/ style="width:50px; height:50px;" ></a>
