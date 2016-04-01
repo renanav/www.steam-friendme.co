@@ -8,3 +8,5 @@ The sign in proccess starts with the user being directed to the official Steam w
 After signing in into the Steam webside, the user is being redirected to the SteamFriend.Me app where he then chooses from a recently played games list, the game that he would like to play with his match. The app then randomly chooses another user from the database who also played that specific game and matches them.  If the match isn't to their liking, additional matches can be chosen. 
 Once the game finishes, users can rate their matches to improve future matches with other players.
 The only information which is saved in the database, are the users' public information and their ratings in the `user_ratings` table.
+
+[http://www.steam-friendme.co/](http://www.steam-friendme.co/)
