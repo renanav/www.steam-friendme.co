@@ -28,7 +28,9 @@ html {
 
 body {
   margin: 0;
-background-color: #404040}
+  background-color: #404040;
+  // overflow: hidden;
+}
 
 article,
 aside,
@@ -5768,12 +5770,14 @@ body {
 
 }
 
-.description {
+#description {
   background-color:rgba(128,128,128,0.5);
   padding-left: 5em;
-  padding-top: 5em;
+  padding-top: 1em;
   padding-bottom: 5em;
   padding-right: 5em;
+  margin-top: -1%;
+
 }
 
 .spacing {
